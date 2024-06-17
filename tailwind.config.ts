@@ -13,16 +13,19 @@ const config: Config = {
         'gray-actived': '#a3a1a1',
         'green-border': '#2A4B46',
         'light-gray': '#f5f5f7',
-        'green-btn': '#CCEC60'
+        'green-btn': '#CCEC60',
+        'green-title-cards': '#719D96',
       },
       maxWidth: {
         grid: '77.5rem',
         'text-hero': '66rem',
         'area-icon': '53.4375rem',
         'area-mockups': '59.8125rem',
+        'area-cards': '82.5rem',
       },
       height: {
-        'sectionHero': '54.625rem'
+        'sectionHero': '54.625rem',
+        'area-cards': '35.125rem',
       },
       backgroundImage: {
         'hero': "url('/bg-hero.svg')"

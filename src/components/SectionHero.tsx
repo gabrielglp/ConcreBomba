@@ -13,7 +13,7 @@ export function SectionHero() {
             <Container className="flex flex-col items-center">
                 <div className="w-full max-w-text-hero text-center">
                     <h3 className="text-xl font-medium text-gray-actived mb-4">Bombeamento de concreto usinado em toda a Baixada Santista</h3>
-                    <h1 className="text-7xl/normal font-semibold mb-2">Eficiência e qualidade</h1>
+                    <h1 className="text-6xl/normal md:text-7xl/normal font-semibold mb-2">Eficiência e qualidade</h1>
                     <div className="flex items-center justify-center gap-10">
                         <button className="flex items-center gap-2">
                             <Image
@@ -40,7 +40,7 @@ export function SectionHero() {
                         className="absolute top-0 right-0"
                     />
                 </div>
-                <div className="absolute -bottom-44 w-full max-w-area-mockups flex justify-between bottom-">
+                <div className="hidden md:flex absolute -bottom-44 w-full max-w-area-mockups flex justify-between bottom-">
                     <Image
                         src={IconMockup}
                         alt="Mockup"
