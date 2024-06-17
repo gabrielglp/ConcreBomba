@@ -26,9 +26,13 @@ const config: Config = {
       height: {
         'sectionHero': '54.625rem',
         'area-cards': '35.125rem',
+        'area-cards-desk': '32.125rem',
       },
       backgroundImage: {
         'hero': "url('/bg-hero.svg')"
+      },
+      borderRadius: {
+        '4xl': '2rem'
       }
     },
   },

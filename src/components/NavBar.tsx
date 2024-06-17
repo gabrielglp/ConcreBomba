@@ -27,7 +27,7 @@ export function NavBar() {
                     alt="Logo"
                 />
             </div>
-            <div className={`md:static absolute bg-white md:min-h-fit min-h-[38vh] left-0 ${menuOpen ? "top-[9%]" : "top-[-100%]"} md:w-auto w-full flex items-center px-5 transition-all duration-300`}>
+            <div className={`md:static absolute bg-white md:min-h-fit min-h-[38vh] left-0 ${menuOpen ? "top-[9%] z-20" : "top-[-100%]"} md:w-auto w-full flex items-center px-5 transition-all duration-300`}>
                 <ul className="flex md:flex-row flex-col md:items-center md:gap-10 gap-8">
                     <li>
                         <ItemMenu
