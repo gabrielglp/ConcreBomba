@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import Mockup from "@/assets/Mockup-main.png"
+import Mockup from "@/assets/mockup-main.png"
 import Card01 from "@/assets/image-01.png"
 import Card02 from "@/assets/image-02.png"
 import Card03 from "@/assets/image-03.png"
