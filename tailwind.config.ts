@@ -17,10 +17,15 @@ const config: Config = {
       },
       maxWidth: {
         grid: '77.5rem',
-        'text-hero': '66rem'
+        'text-hero': '66rem',
+        'area-icon': '53.4375rem',
+        'area-mockups': '59.8125rem',
       },
       height: {
         'sectionHero': '54.625rem'
+      },
+      backgroundImage: {
+        'hero': "url('/bg-hero.svg')"
       }
     },
   },
