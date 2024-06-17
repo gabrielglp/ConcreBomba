@@ -6,10 +6,10 @@ import Image from "next/image";
 
 import { Container } from "./Container";
 
-import IconFile from "@/assets/icon-file.svg"
-import IconHand from "@/assets/icon-hand.svg"
-import IconHand02 from "@/assets/icon-hand-02.svg"
-import IconMockup from "@/assets/mockup.svg"
+import IconFile from "@/assets/icon-file.svg";
+import IconHand from "@/assets/icon-hand.svg";
+import IconHand02 from "@/assets/icon-hand-02.svg";
+import IconMockup from "@/assets/mockup.svg";
 import gsap from "gsap";
 
 export function SectionHero() {
