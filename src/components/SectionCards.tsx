@@ -93,7 +93,7 @@ export function SectionCards() {
     }, []);
     
     return (
-        <section className="w-full mx-auto pb-20 bg-light-gray" ref={sectionRef}>
+        <section className="w-full mx-auto pb-20" ref={sectionRef}>
             <Image
                 src={Mockup}
                 alt="Mockup main"
