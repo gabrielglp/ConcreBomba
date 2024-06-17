@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import Mockup from "@/assets/mockup-main.png"
+import Mockup from "@/assets/Mockup-main.png"
 import Card01 from "@/assets/image-01.png"
 import Card02 from "@/assets/image-02.png"
 import Card03 from "@/assets/image-03.png"
@@ -14,7 +14,7 @@ export function SectionCards() {
             <Image
                 src={Mockup}
                 alt="Mockup main"
-                className="w-60 md:w-80 sticky top-56 z-10 mx-auto -mt-[25rem] md:-mt-[32rem] mb-16"
+                className="w-64 md:w-80 sticky top-56 z-10 mx-auto -mt-[25rem] md:-mt-[32rem] mb-16"
             />
             <h2 className="text-center text-2xl md:text-7xl font-semibold mb-24 md:mb-56">Faça <span className="text-green-title-cards">você</span> mesmo de casa</h2>
             <div className="relative w-full max-w-area-cards h-area-cards mx-auto">
