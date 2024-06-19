@@ -1,7 +1,7 @@
 interface InputProps {
     type: string;
     placeholder: string;
-    pattern: string;
+    pattern?: string;
     required: boolean;
 }
 

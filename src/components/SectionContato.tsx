@@ -24,8 +24,8 @@ export function SectionContato() {
                     </h1>
                     <form action="" className="flex flex-col">
 
-                        <InputContato type="text" placeholder="Nome completo" pattern="" required />
-                        <InputContato type="email" placeholder="E-mail profissional" pattern="" required />
+                        <InputContato type="text" placeholder="Nome completo" pattern="[A-Za-zÀ-ÖØ-öø-ÿ\s]+" required />
+                        <InputContato type="email" placeholder="E-mail profissional" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required />
                         <InputContato type="text" placeholder="Celular/WhatsApp" pattern="^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$" required />
                         {/* <InputContato type="text" placeholder="Nome completo" pattern="" required />
                         <SelectContato placeholder="Nome completo" options={[
