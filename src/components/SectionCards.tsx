@@ -85,7 +85,7 @@ export function SectionCards() {
             duration: 1,
             scrollTrigger: {
                 trigger: section,
-                start: '63% center',
+                start: '45% center',
                 // markers: true
             }
         });
@@ -117,7 +117,7 @@ export function SectionCards() {
                 <Image
                     src={Card03}
                     alt="Card 03"
-                    className="w-20 md:w-60 absolute bottom-20 md:bottom-0 left-72 md:left-80 rounded-xl md:rounded-4xl opacity-0"
+                    className="w-20 md:w-60 absolute bottom-20 md:bottom-0 left- xs:left-[17rem] md:left-80 rounded-xl md:rounded-4xl opacity-0"
                     ref={card03Ref}
                 />
                 <Image
