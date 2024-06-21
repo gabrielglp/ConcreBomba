@@ -37,7 +37,8 @@ const config: Config = {
         'area-card-contato': '657px',
       },
       backgroundImage: {
-        'hero': "url('/bg-hero.svg')"
+        'hero': "url('/bg-hero.svg')",
+        'sobre': "url('/bg-sobre.jpg')",
       },
       borderRadius: {
         '4xl': '2rem'
