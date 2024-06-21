@@ -48,6 +48,10 @@ export function SectionHero() {
         })
     }, []);
 
+    const openWhatsApp = () => {
+        window.open('https://api.whatsapp.com/send/?phone=5513996790272&text=Ol%C3%A1,%20tudo%20bem?&type=phone_number&app_absent=0', '_blank');
+    };
+
     return (
         <section className="relative w-full h-sectionHero bg-hero bg-no-repeat bg-light-gray pt-16 bg-top overflow-hidden">
             <Container className="flex flex-col items-center">
@@ -55,14 +59,16 @@ export function SectionHero() {
                     <h3 className="text-xl font-medium text-gray-actived mb-4">Bombeamento de concreto usinado em toda a Baixada Santista</h3>
                     <h1 className="text-6xl/normal md:text-7xl/normal font-semibold mb-2">Eficiência e qualidade</h1>
                     <div className="flex items-center justify-center gap-10">
-                        <button className="flex items-center gap-2">
+                        <div className="flex items-center gap-2">
                             <Image
                                 src={IconFile}
                                 alt="Icon File"
+                                className="cursor-pointer"
+                                onClick={openWhatsApp}
                             />
                             <span className="font-medium">Entre em contato</span>
-                        </button>
-                        <button className="py-4 px-5 bg-green-btn rounded-full font-bold">
+                        </div>
+                        <button className="py-4 px-5 bg-green-btn rounded-full font-bold" onClick={openWhatsApp}>
                             WhatsApp
                         </button>
                     </div>
