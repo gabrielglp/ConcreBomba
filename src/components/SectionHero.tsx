@@ -86,7 +86,7 @@ export function SectionHero() {
                         className="absolute top-0 right-0"
                     />
                 </div>
-                <div className="hidden md:flex absolute -bottom-44 w-full max-w-area-mockups flex justify-between bottom-">
+                <div className="hidden md:flex absolute -bottom-44 w-full max-w-area-mockups justify-between bottom-">
                     <Image
                         src={IconMockup}
                         alt="Mockup"
