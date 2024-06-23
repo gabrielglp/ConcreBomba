@@ -49,7 +49,7 @@ export function SectionHero() {
     }, []);
 
     const openWhatsApp = () => {
-        window.open('https://api.whatsapp.com/send/?phone=5513996790272&text=Ol%C3%A1,%20tudo%20bem?&type=phone_number&app_absent=0', '_blank');
+        window.open('https://api.whatsapp.com/send/?phone=5513974094052&text=Ol%C3%A1,%20tudo%20bem?&type=phone_number&app_absent=0', '_blank');
     };
 
     return (

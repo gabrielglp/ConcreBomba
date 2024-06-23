@@ -7,13 +7,13 @@ export function SectionSobre() {
     return (
         <>
             <div className="bg-sobre w-full h-sectionHero bg-no-repeat opacity-45 absolute"></div>
-            <div className="z-10 relative flex flex-col items-center top-24 md:top-14">
-                <h1 className="text-3xl md:text-7xl text-[#3B3B3B] font-bold">Concre<span className="text-green-btn">Bomba</span></h1>
+            <div className="z-10 relative flex flex-col items-center top-28 md:top-16">
                 <Image
-                    className="w-56 md:w-72 pb-12"
+                    className="w-32 md:w-44"
                     src={Logo}
                     alt="Logo"
                 />
+                <h1 className="text-5xl md:text-7xl text-[#3B3B3B] font-bold pb-48 md:pb-12">MC<span className="text-green-btn">MIX</span></h1>
             </div>
         </>
     )

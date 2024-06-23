@@ -19,7 +19,7 @@ export function NavBar() {
     };
 
     const openWhatsApp = () => {
-        window.open('https://api.whatsapp.com/send/?phone=5513996790272&text=Ol%C3%A1,%20tudo%20bem?&type=phone_number&app_absent=0', '_blank');
+        window.open('https://api.whatsapp.com/send/?phone=5513974094052&text=Ol%C3%A1,%20tudo%20bem?&type=phone_number&app_absent=0', '_blank');
     };
 
     return (
@@ -30,7 +30,7 @@ export function NavBar() {
                     src={Logo}
                     alt="Logo"
                 />
-                <span className={`font-bold hidden md:block text-3xl`}>Concre<span className="text-green-btn">Bomba</span></span>
+                <span className={`font-bold hidden md:block text-3xl`}>MC<span className="text-green-btn">MIX</span></span>
             </div>
             <div className={`md:static absolute bg-white md:min-h-fit min-h-[38vh] left-0 ${menuOpen ? "top-[9%] z-20" : "top-[-100%]"} md:w-auto w-full flex items-center px-5 transition-all duration-300 pr-24`}>
                 <ul className="flex md:flex-row flex-col md:items-center md:gap-10 gap-8">
