@@ -7,7 +7,7 @@ type Props = {
 export function ItemMenu({name}: Props) {
     return (
         <button className="flex items-center gap-3">
-            <span className="text-black hover:text-green-btn">{name}</span>
+            <span className="text-white hover:text-green-btn">{name}</span>
         </button>
     )
 }
